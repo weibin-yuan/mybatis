@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Main-Class: com.ywb.dao.BookDao
+Class-Path: spring-beans-5.0.3.RELEASE.jar c3p0-0.9.5.4.jar mariadb-java
+ -client-2.3.0.jar mchange-commons-java-0.2.15.jar mysql-connector-java-
+ 5.1.48-bin.jar junit-4.10.jar spring-core-5.0.3.RELEASE.jar hamcrest-co
+ re-1.1.jar spring-context-5.0.3.RELEASE.jar mybatis-3.4.6.jar spring-ao
+ p-5.0.3.RELEASE.jar spring-jcl-5.0.3.RELEASE.jar spring-expression-5.0.
+ 3.RELEASE.jar
+

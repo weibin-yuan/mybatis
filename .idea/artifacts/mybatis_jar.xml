@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="mybatis:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/mybatis_jar</output-path>
+    <root id="root">
+      <element id="archive" name="mybatis.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="mybatis" />
+        <element id="module-test-output" name="mybatis" />
+      </element>
+      <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.3.RELEASE" />
+      <element id="file-copy" path="E:/c3p0-0.9.5.4/lib/c3p0-0.9.5.4.jar" />
+      <element id="library" level="project" name="Maven: org.mariadb.jdbc:mariadb-java-client:2.3.0" />
+      <element id="file-copy" path="E:/c3p0-0.9.5.4/lib/mchange-commons-java-0.2.15.jar" />
+      <element id="file-copy" path="E:/MySQL/mysql-connector-java-5.1.48/mysql-connector-java-5.1.48-bin.jar" />
+      <element id="library" level="project" name="Maven: junit:junit:4.10" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.3.RELEASE" />
+      <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.3.RELEASE" />
+      <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.4.6" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.3.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.3.RELEASE" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.3.RELEASE" />
+    </root>
+  </artifact>
+</component>
