@@ -6,4 +6,13 @@
     <select id="selectBookById" resultType="com.ywb.entity.Book">
         select * from Book where id=#{id}
     </select>
+    <delete id="del" parameterType="Integer">
+        delete from Book where id=#{id}
+    </delete>
+    <update id="update" parameterType="com.ywb.entity.Book">
+        update Book set name=#{name} where id=#{id}
+    </update>
+    <insert id="add" parameterType="com.ywb.entity.Book">
+        insert into Book(id, name, number) values(#{id}, #{name}, #{number})
+    </insert>
 </mapper>
